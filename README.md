@@ -1,4 +1,4 @@
-# 🪐 Optimal_Route: Algoritmos de Planificación de Rutas y Tratamiento de Datos Planetarios
+# Optimal_Route: Algoritmos de Planificación de Rutas y Tratamiento de Datos Planetarios
 
 [![NASA Space Apps Challenge](https://img.shields.io/badge/NASA%20Space%20Apps-2024-0B3D91?style=for-the-badge&logo=nasa&logoColor=white)](https://www.spaceappschallenge.org/)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
@@ -11,7 +11,7 @@ Este repositorio contiene la fundamentación matemática, el código fuente en P
 
 ---
 
-## 🧭 Índice Pedagógico de Libretas
+## Índice Pedagógico de Libretas
 
 | Libreta | Título | Descripción Técnica |
 | :--- | :--- | :--- |
@@ -24,11 +24,11 @@ Este repositorio contiene la fundamentación matemática, el código fuente en P
 
 ---
 
-## 🔬 Fundamentación Matemática y Física
+## Fundamentación Matemática y Física
 
 ### 1. Modelo de Consumo Metabólico ($PLSS$)
 Adaptación para gravedad marciana ($g = 3.71\text{ m/s}^2$) y trajes espaciales presurizados:
-$$\dot{V}_{O_2} = \dot{V}_{\text{base}} \times f_{\text{pendiente}}(\theta) \times C_{\text{climb}}\left(\frac{\Delta z}{d}\right) \times M_{\text{run}} \times P_{\text{térmico}}$$
+$$\dot{V}_{O_2} = \dot{V}_{\text{base}} \times f_{\text{pendiente}}(\theta) \times C_{\text{climb}}\left(\frac{\Delta z}{d}\right) \times M_{\text{run}} \times P_{\text{termico}}$$
 - **Tasa basal:** $\dot{V}_{\text{base}} = 50\text{ L/h}$ ($\approx 0.0139\text{ L/s}$) a marcha nominal ($1.2\text{ m/s}$).
 - **Umbral de seguridad biomecánica:** $\theta_{\text{safe}} = 25^\circ$. Pendientes superiores disparan penalización cuadrática estricta para evitar resbalamientos y rotura del traje.
 
@@ -37,7 +37,7 @@ $$\nabla z = \left( \frac{\partial z}{\partial x}, \frac{\partial z}{\partial z}
 $$\theta^\circ = \arctan\left(\sqrt{\left(\frac{\partial z}{\partial x}\right)^2 + \left(\frac{\partial z}{\partial z}\right)^2}\right) \times \frac{180^\circ}{\pi}$$
 
 ### 3. Heurística Admisible para $A^*$
-$$h(n) = \left( \frac{\|\mathbf{p}_{\text{meta}} - \mathbf{p}_n\|_2}{v_{\text{walk}}} \right) \cdot \dot{V}_{\text{base}} \cdot 0.85 \le h^*(n)$$
+$$h(n) = \left( \frac{\|\mathbf{p}_{\text{meta}} - \mathbf{p}_n\|_2}{v_{\text{walk}}} \right) \cdot \dot{V}_{\text{base}} \cdot 0.85 \leq h^*(n)$$
 Garantiza matemáticamente encontrar el camino de menor gasto metabólico en la rejilla.
 
 ### 4. Formulación Cuántica QUBO / QAOA
@@ -50,7 +50,7 @@ $$|\psi(\boldsymbol{\gamma}, \boldsymbol{\beta})\rangle = \prod_{l=1}^p e^{-i \b
 
 ---
 
-## 🛠️ Instalación y Ejecución
+## Instalación y Ejecución
 
 ### 1. Clonar el repositorio
 ```bash
@@ -79,7 +79,7 @@ Abre la carpeta `notebooks/` y ejecuta las libretas en orden secuencial (`01` a 
 
 ---
 
-## 📁 Estructura del Repositorio
+## Estructura del Repositorio
 
 ```
 Optimal_Route/
@@ -101,7 +101,7 @@ Optimal_Route/
 
 ---
 
-## 🛰️ Misiones NASA Referenciadas
+## Misiones NASA Referenciadas
 - **Mars 2020:** Rover *Perseverance* & Estación Meteorológica *MEDA*.
 - **MRO (Mars Reconnaissance Orbiter):** Espectrómetro *CRISM* y Cámaras *CTX / HiRISE*.
 - **Mars Odyssey:** Cámara de Emisión Térmica *THEMIS*.
