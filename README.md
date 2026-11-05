@@ -5,9 +5,9 @@
 [![Qiskit Quantum](https://img.shields.io/badge/Qiskit-QAOA%20Optimization-6929C4?style=for-the-badge&logo=qiskit&logoColor=white)](https://qiskit.org/)
 [![Jupyter Notebooks](https://img.shields.io/badge/Jupyter-Interactive%20Science-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
 
-Repositorio científico y pedagógico oficial de los algoritmos de navegación, tratamiento de datos satelitales y optimización cuántica del proyecto **Marswalk 3D** para el **NASA Space Apps Challenge**.
+Repositorio científico y pedagógico oficial de los algoritmos de navegación, tratamiento de datos satelitales y optimización cuántica.
 
-Este repositorio contiene la fundamentación matemática, el código fuente en Python y una suite de **6 libretas interactivas (`.ipynb`)** totalmente reproducibles que van desde la decodificación de datos altimétricos brutos de la NASA hasta la resolución variacional con computación cuántica.
+Este repositorio contiene la fundamentación matemática, el código fuente en Python y una suite de **6 libretas interactivas (`.ipynb`)** totalmente reproducibles que van desde la decodificación de datos altimétricos brutos hasta la resolución variacional con computación cuántica.
 
 ---
 
